@@ -1,0 +1,6 @@
+I used a HashSet from Java's standardd library to keep track of the user history.
+I chose the hashset for the O(1) lookup and insert time and also because it has the built in capability to eliminate duplicates since it's a set.
+Whenever the user finishes a word I added it to the set.
+At the end of the program I iterated through the set and wrote those words into a text file.
+At the beginning of the program I iterated through the text file and added those words to the set.
+ 
